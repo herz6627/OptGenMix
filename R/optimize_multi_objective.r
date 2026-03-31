@@ -137,15 +137,13 @@ optimize_multi_objective <- function( v1=NULL, v2=NULL, measure_1=NULL, measure_
             weights <- proposed_weights
             summary_1 <- proposal_summary_1
             summary_2 <- proposal_summary_2
-            
-            if (nda) {
-               archive <- reconcile_sample_nondominated_archive(summary_1, summary_2, weights, archive)
-               # cat("   Sample ", length(archive), " of ", nd_samples, " added to non-diminated archive  \n")
-               if ( length(archive) >= nd_samples ) { nda_complete <- TRUE }
-            }
-
          } 
 
+         if (nda) { # moved this outside of accept_proposal so that we can explore un-accepted front space
+           archive <- reconcile_sample_nondominated_archive(summary_1, summary_2, weights, archive)
+           if ( length(archive) >= nd_samples ) { nda_complete <- TRUE }
+         }
+         
          chain$accept[s]    <- accept_proposal
          chain$value_1[s]   <- summary_1
          chain$value_2[s]   <- summary_2

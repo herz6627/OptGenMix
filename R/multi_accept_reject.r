@@ -14,6 +14,9 @@
 multi_accept_reject <- function(summary_1=summary_1, summary_2=summary_2, proposal_summary_1=proposal_summary_1, proposal_summary_2=proposal_summary_2, t, p_depends_delta=FALSE, c1=1, c2=1, cboth=1) {
 
    accept=FALSE
+   
+   # add catch for when t = 0
+   if (t == 0) {t = 1e-10}  # avoid divide-by-zero
 
    # if better, accept
    if ( proposal_summary_1 > summary_1 & proposal_summary_2 > summary_2 ) {

@@ -13,6 +13,8 @@ proposal_accept_reject <- function(summary=summary, proposal_summary=proposal_su
 
    accept=FALSE
 
+   if(t == 0) {t <- 1e-10}  # avoid divide-by-zero which has been a reoccurring issue
+   
    # if better, accept
    if ( proposal_summary > summary ) {
 
@@ -29,7 +31,6 @@ proposal_accept_reject <- function(summary=summary, proposal_summary=proposal_su
 
       p_accept_worse <- exp( ( -numerator ) / t  )
 
-      #cat(p_accept_worse, "\n")
       if ( runif(1) < p_accept_worse ) {
          accept=TRUE
       }
