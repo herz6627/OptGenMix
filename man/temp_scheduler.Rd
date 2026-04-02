@@ -20,4 +20,3 @@ Determines the temperature for annealing
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

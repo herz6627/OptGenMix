@@ -32,4 +32,3 @@ preferred alleles. Assumes genotype fitness 2 > 1 > 0.
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

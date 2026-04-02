@@ -24,4 +24,3 @@ applied to the individuals
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

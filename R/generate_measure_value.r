@@ -1,9 +1,7 @@
 #' Wraps functions that are used to calculate summaries 
 #' 
-#' @param v                 - gt or sm
-#' @param measure           - "nei" or "shannon" or "mean_similarity"
-#' @param w                 - weights
-#' @param q                 - q value for shannon diversity 
+#' @param v trait value
+#' @inheritParams optimize_single_objective
 #' @return summary value (if similarity, summary value * -1) 
 #' @author Jason Bragg (jasongbragg@gmail.com)
 #' @export

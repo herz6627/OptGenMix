@@ -26,4 +26,3 @@ number of genotyped individuals)
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

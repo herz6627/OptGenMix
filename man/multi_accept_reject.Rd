@@ -4,10 +4,17 @@
 \alias{multi_accept_reject}
 \title{Determines acceptance or rejection of a proposal}
 \usage{
-multi_accept_reject(summary_1 = summary_1, summary_2 = summary_2,
+multi_accept_reject(
+  summary_1 = summary_1,
+  summary_2 = summary_2,
   proposal_summary_1 = proposal_summary_1,
-  proposal_summary_2 = proposal_summary_2, t, p_depends_delta = FALSE,
-  c1 = 1, c2 = 1, cboth = 1)
+  proposal_summary_2 = proposal_summary_2,
+  t,
+  p_depends_delta = FALSE,
+  c1 = 1,
+  c2 = 1,
+  cboth = 1
+)
 }
 \arguments{
 \item{t}{- current temperature}
@@ -33,4 +40,3 @@ Determines acceptance or rejection of a proposal
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

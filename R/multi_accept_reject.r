@@ -1,13 +1,13 @@
 #' Determines acceptance or rejection of a proposal
 #' 
-#' @param summary          - summary of current
-#' @param proposal_summary - summary of new proposal
-#' @param t                - current temperature
-#' @param p_depends_delta  - if TRUE, accept depends on difference between new and old 
-#' @param c1               - multiplier for numerator when proposal for value 1 worse, 2 better
-#' @param c2               - multiplier for numerator when proposal for value 2 worse, 1 better
-#' @param cboth            - multiplier for numerator when proposals for both values are worse
-#' @return Boolean, true if proposal accepted 
+#' @param summary          Summary of current.
+#' @param proposal_summary Summary of new proposal.
+#' @param t                Current temperature.
+#' @param p_depends_delta  If TRUE, accept depends on difference between new and old.
+#' @param c1               Multiplier for numerator when proposal for value 1 worse, 2 better.
+#' @param c2               Multiplier for numerator when proposal for value 2 worse, 1 better.
+#' @param cboth            Multiplier for numerator when proposals for both values are worse.
+#' @return Boolean, TRUE if proposal accepted.
 #' @author Jason Bragg (jasongbragg@gmail.com)
 #' @export
 

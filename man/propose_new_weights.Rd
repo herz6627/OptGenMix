@@ -5,12 +5,14 @@
 \title{Proposes new weights in the neighborhood of current 
 state. Uses current state, constraints (maxima).}
 \usage{
-propose_new_weights(w, w_max = NULL)
+propose_new_weights(w, w_max = NULL, w_min = NULL)
 }
 \arguments{
 \item{w}{- a vector of weights}
 
 \item{w_max}{- a vector of maxima for each individual}
+
+\item{w_min}{- a vector of minima for each individual}
 }
 \value{
 An updated set of weights
@@ -22,4 +24,3 @@ state. Uses current state, constraints (maxima).
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

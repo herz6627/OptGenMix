@@ -20,4 +20,3 @@ Transforms a genotype matrix by a vector of weights
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

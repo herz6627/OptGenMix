@@ -22,4 +22,3 @@ multiobjective optimization function
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

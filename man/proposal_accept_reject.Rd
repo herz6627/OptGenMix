@@ -4,8 +4,13 @@
 \alias{proposal_accept_reject}
 \title{Determines acceptance or rejection of a proposal}
 \usage{
-proposal_accept_reject(summary = summary,
-  proposal_summary = proposal_summary, t, p_depends_delta = FALSE, c = 1)
+proposal_accept_reject(
+  summary = summary,
+  proposal_summary = proposal_summary,
+  t,
+  p_depends_delta = FALSE,
+  c = 1
+)
 }
 \arguments{
 \item{summary}{- summary of current}
@@ -27,4 +32,3 @@ Determines acceptance or rejection of a proposal
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

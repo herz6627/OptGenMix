@@ -24,4 +24,3 @@ and number of individuals in target population (sum of weights).
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

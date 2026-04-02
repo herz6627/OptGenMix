@@ -4,8 +4,14 @@
 \alias{generate_measure_value}
 \title{Wraps functions that are used to calculate summaries}
 \usage{
-generate_measure_value(v, measure = NULL, w = NULL, q = NULL,
-  loc = NULL, disp = 0)
+generate_measure_value(
+  v,
+  measure = NULL,
+  w = NULL,
+  q = NULL,
+  loc = NULL,
+  disp = 0
+)
 }
 \arguments{
 \item{v}{- gt or sm}
@@ -25,4 +31,3 @@ Wraps functions that are used to calculate summaries
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

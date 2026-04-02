@@ -24,4 +24,3 @@ number of individuals
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

@@ -32,4 +32,3 @@ constraints on genotype composition
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-

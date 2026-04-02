@@ -30,4 +30,3 @@ temperature of origin for each sample, and temperate of a site.
 \author{
 Jason Bragg (jasongbragg@gmail.com)
 }
-
